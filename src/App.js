@@ -1,12 +1,12 @@
 import "./App.css";
-import CustomFormComponent from "./Components/CustomFormComponent";
+import CustomForm from "./Components/CustomForm";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
   return (
     <>
       <div>
-        <CustomFormComponent />
+        <CustomForm />
       </div>
     </>
   );
