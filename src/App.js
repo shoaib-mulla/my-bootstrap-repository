@@ -6,6 +6,7 @@ import Home from "./Components/Home";
 import Phonebook from "./Components/Phonebook";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import ApiDataComp from "./Components/ApiDataComp";
+import UseEffectDemo from "./Components/UseEffectDemo";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/phonebook" element={<Phonebook />} />
           <Route path="/apidatacomp" element={<ApiDataComp />} />
+          <Route path="/useeffectdemo" element={<UseEffectDemo />} />
         </Routes>
         <Footer />
       </Router>

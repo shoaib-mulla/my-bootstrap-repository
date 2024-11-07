@@ -24,6 +24,9 @@ function Header() {
             <Nav.Link as={Link} to="/apidatacomp">
               API Fetch
             </Nav.Link>
+            <Nav.Link as={Link} to="/useeffectdemo">
+              Lifecycle
+            </Nav.Link>
             <NavDropdown title="Dropdown" id="basic-nav-dropdown">
               <NavDropdown.Item as={Link} to="/action/3.1">
                 Action
